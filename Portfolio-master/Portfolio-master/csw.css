@@ -1,0 +1,206 @@
+img.logo {
+    width: 310px;
+    height: auto;
+}
+@media (max-width: 670px) {
+    img.logo {
+        width: 265px;
+        height: auto;
+    }
+}
+@media (max-width: 360px) {
+    img.logo {
+        width: 245px;
+        height: auto;
+    }
+}
+@media (max-width: 320px) {
+    img.logo {
+        width: 215px;
+        height: auto;
+    }
+}
+.btn-outline-success {
+    color: #F15A25;
+    border-color: #F15A25;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #F15A25;
+    border-color: #F15A25;
+}
+.btn-outline-success:active {
+    color: #fff;
+    background-color: #078B4C;
+    border-color: #078B4C;
+}
+.navbar-nav li.nav-item {
+    font-family: Jura;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1F6A9A;
+}
+.hero-text h1.title {
+    color: #fff;
+    font-size: 54px; 
+    font-family: Quantico;   
+    text-transform: uppercase;
+}
+@media (max-width: 670px) {
+    .hero-text h1.title {
+        font-size: 32px;
+    }
+}
+h1.title span {
+    color: #F19725;
+    font-weight: bold;
+}
+ul.corporate-links {
+    list-style: none;
+    margin: 0px;
+}
+@media (max-width: 670px) {
+    ul.corporate-links {
+        padding: 0;
+    }
+}
+ul.corporate-links li {
+    display: inline-block;
+    padding: 10px;
+    font-family: Jura;
+    color: #fff;
+}
+.bottom-footer .row {
+    justify-content: center;
+}
+.footer-links {
+    list-style: none;
+}
+.footer-links li {
+    font-family: Jura;
+    color: #6099BE;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-links li a {
+    color: #6099BE;
+    text-decoration: none;
+}
+.footer-links li a:hover {
+    color: #FF7D50;
+}
+.footer-menu h4 {
+    font-family: Quantico;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.main-footer {
+    background-color: #495057;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bottom-footer {
+    background-color: #383d41;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-line {
+    width: 80%;
+    height: 2px;
+    border-top: 2px solid #FF7D50;
+    margin-right: auto;
+    margin-left: auto;
+}
+.intro h2 {
+    font-family: Quantico;
+    font-weight: bold;   
+    position: relative;
+    color: #fff;
+}
+.bio {
+    font-family: Jura;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+@media (max-width: 670px) {
+    .bio {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.intro {
+    position: relative;
+    margin-bottom: 20px;
+}
+.intro:before {
+    content: " ";
+    background-color: #F15925;
+    color: #003462;
+    position: absolute;
+    transform: skew(-25deg);
+    height: 2.625rem;
+    left: -1rem;
+    top: 0;
+    width: 26.5rem;
+}
+@media (max-width: 670px) {
+    .intro:before {
+        width: 100%;
+    }
+}
+.value {
+    font-family: Jura;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+@media (max-width: 670px) {
+    .value {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.service-img img {
+    width: 100%;
+    height: auto;
+}
+.service {
+    font-family: Jura;
+}
+#difference h2 {
+    font-family: Quantico;
+    text-align: center;
+    color: #F15925;
+    font-weight: 700;
+}
+#difference {
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+.line.blue {
+    height: 3px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid #3A7AA4;
+    margin-bottom: 20px;
+}
+#difference {
+background-color: #F4F6F9;
+    background-image: url('https://www.bluestarrelo.com/wp-content/themes/blue-star/images/bg-angle-white.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media (max-width: 670px) {
+    h2 {
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .hero-text {
+        padding-left: 15px;
+    }
+}
+

@@ -1,0 +1,198 @@
+/**** Color Schemes ****/
+/*
+Claimpix: #6eb98f - Green
+MoveMatcher: #0C5481 - Footer Blue
+			 #45B1F3 - Text Blue
+PrudentPet: #17bebb - Teal
+			#12455b - Blue
+
+*/
+/***********************/
+#personal-info {
+	background-image: url('sandiego_harbor.jpg');
+	background-size: cover;
+	background-position: center;	
+}
+.row.my-profile {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#resume p {
+	font-family: 'Assistant', sans-sarif;
+}
+.my-name h1 {
+	font-family: Montserrat;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: 0 0 8px #5d5d5d;
+	color: #fff;
+}
+.work-exp-title {
+	background: rgba(96, 125, 139, 0.28);
+}
+.work-exp-title h2 {
+	font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 8px #607D8B;
+    display: inline-block;
+}
+.work-exp-title .fas {
+	font-size: 40px;
+    color: #607D8B;
+    display: inline-block;
+    margin-right: 10px;
+}
+div.comp-logo {
+	width: 100px;
+	margin-right: 20px;
+}
+.comp-logo img {
+	width: 100%;
+	height: auto;
+	/*max-height: 110px;*/
+}
+.comp-name {
+	align-self: center;
+}
+.comp-name a h2 {
+	font-family: Montserrat;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #5d5d5d;
+}
+.comp-name a:hover {
+	text-decoration: none;	
+}
+.container-fluid .row.company-info.di {	
+}
+.row.company-info {    
+}
+.brand-image {
+    flex: 0 0 50%;
+	background: url('incubator_graphic@2x.png');
+	background-size: cover;
+	background-position: center;
+}
+.company {
+	flex: 1;
+	background: #f7f9fa;
+	padding-bottom: 30px;
+}
+.c-name {
+	display: flex;
+	padding: 15px
+}
+
+.hide {
+  display: none;
+}
+p.readmore {
+    width: 220px;
+    background: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #0C5481;
+    color: #0C5481;
+	font-size: 16px;
+	font-family: Assistant;
+	font-weight: bold;
+	margin: auto;
+	text-transform: uppercase;
+}
+
+.readmore .fab {
+	color: #0C5481;
+	font-size: 18px;
+	font-weight: 400;
+}
+p.readmore:hover {
+	background: #0C5481;
+	color: #fff;
+}
+p.readmore:hover .fab {
+	color: #fff;
+}
+
+p.readless {
+    width: 220px;
+    background: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #5d5d5d;
+    color: #5d5d5d;
+	font-size: 16px;
+	font-family: Assistant;
+	font-weight: bold;
+	margin: auto;
+	text-transform: uppercase;
+}
+
+.readless .fab {
+	color: #5d5d5d;
+	font-size: 18px;
+	font-weight: 400;
+}
+p.readless:hover {
+	background: #5d5d5d;
+	color: #fff;
+}
+p.readless:hover .fab {
+	color: #fff;
+}
+ul {
+	font-family: Assistant;
+	color: #5d5d5d;
+	list-style: none;
+}
+ul li:before {
+	content: "\2022";
+    color: #45b1f3;
+    width: 1em;
+    margin-left: -1em;
+    display: inline-block;
+}
+.brand-image.gold {
+	background: url('office-shot.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.work-flow {
+	padding: 15px;
+}
+
+.title {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #5d5d5d;
+}
+
+#resume-footer {	
+	background: #0C5481;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#resume-footer .row {
+	justify-content: center;
+}
+
+.copyright {
+	align-self: center;
+}
+.copyright p {
+	margin: 0px;
+	color: #fff;
+	font-family: Assistant;
+	font-size: 14px;
+}
